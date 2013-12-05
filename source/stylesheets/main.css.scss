@@ -1,0 +1,13 @@
+@import "compass";
+
+@import "variables";
+@import "header";
+@import "mixins";
+
+div.wrapper {
+  width: $wrapperWidth;
+  margin: auto;
+}
+
+div#body {
+}

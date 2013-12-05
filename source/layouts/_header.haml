@@ -1,0 +1,8 @@
+.wrapper
+  %h1 慶應義塾大学環境情報学部 青山敦研究室
+  %ul
+    - data.nav.header.each do |en_title,ja_title|
+      = link_to '#' do
+        %li
+          %p.en= en_title
+          %p.ja= ja_title

@@ -1,0 +1,40 @@
+@import "compass";
+@import "mixins";
+
+header {
+  background-color: $mainColor;
+  border-bottom: 2px solid $accentColor;
+  @include zurui_box_shadow();
+  h1 {
+    color: white;
+    margin: 0;
+  }
+  ul {
+    list-style: none;
+    @include clearfix;
+    margin: 0;
+    padding: 0;
+    a {
+      display: block;
+      float: left;
+      margin: 20px 0 10px 0px;
+      padding: 0px 19px;
+      border-right: 1px solid $borderColor;
+      &:first-child {
+        border-left: 1px solid $borderColor;
+        margin-left: 4px;
+      }
+      li {
+        color: white;
+        p {
+          margin: 0px;
+          font-size: 10px;
+          &.en {
+            font-weight: bold;
+            font-size: 15px;
+          }
+        }
+      } // li
+    } // a
+  } // ul
+}
