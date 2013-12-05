@@ -7,3 +7,10 @@ header:
   - [ Sponsership, 共同研究, sponsership.html ]
   - [ Links, リンク, links.html ]
   - [ Contact, 連絡先, contacts.html ]
+
+side:
+  index:
+    title: [ Home, 研究室概要 ]
+    list:
+      - [ 研究概要, "#about" ]
+      - [ 研究室の一日, "#ichinichi" ]

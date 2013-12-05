@@ -1,0 +1,7 @@
+.page_title
+  %p.en= side_content['title'][0]
+  %p.ja= side_content['title'][1]
+%ul
+  - side_content['list'].each do | name,link |
+    = link_to link do
+      %li= name

@@ -5,11 +5,15 @@ title: 青山敦研究室
 %div#body
   %div.wrapper
 
-    %div.spam
-      %p hoghohgeo
+    %div#sidemenu
+      = partial "layouts/sidemenu", locals: {side_content: data.nav.side['index']}
 
-    %div.welcome
-      %h1 Middleman is Watching
-      %p.doc
-        = link_to "Read Online Documentation", "http://middlemanapp.com/"
+    %div#main
+      %h2 青山敦研究室とは
+      %h3#about 研究概要
+      - 2.times do
+        %p= lorem.paragraph
+      %h3#ichinichi 研究室の一日
+      - 2.times do
+        %p= lorem.paragraph
 
