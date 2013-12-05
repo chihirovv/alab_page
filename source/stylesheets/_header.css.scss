@@ -4,7 +4,7 @@
 header {
   background-color: $mainColor;
   border-bottom: 3px solid $accentColor;
-  @include zurui_box_shadow();
+  // @include zurui_box_shadow();
   h1 {
     color: white;
     margin: 0;

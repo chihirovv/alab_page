@@ -23,10 +23,49 @@ div.wrapper {
 
 main {
   float: right;
-  width: 960px - 34px - 254px;
+  width: $wrapperWidth - 20px - $sidemenuWidth;
 }
 
 p {
   font-size: 16px;
   line-height: 24px;
+}
+
+h2 {
+  position: relative;
+  border-bottom: 5px solid $mainColor;
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  background: white;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    height: 0;
+    width: 0;
+    left: 10px;
+    border: 15px solid rgba(255,255,255,0.0);
+    border-top: 15px solid $mainColor;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    height: 0;
+    width: 0;
+    left: 17px;
+    border: 8px solid rgba(255,255,255,0.0);
+    border-top: 8px solid white;
+  }
+}
+
+h3 {
+  font-size: 18px;
+}
+
+section {
+  margin-left: 15px;
 }
