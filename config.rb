@@ -65,8 +65,17 @@ configure :build do
   # activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+end
+
+activate :deploy do |deploy|
+  deploy.method       = :ftp
+  deploy.host         = "write something"
+  deploy.path         = "write something"
+  deploy.user         = "write something"
+  deploy.password     = "write something"
+  deploy.build_before = true
 end
