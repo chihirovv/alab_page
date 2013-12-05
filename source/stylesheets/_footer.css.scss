@@ -1,0 +1,9 @@
+@import "compass";
+@import "mixins";
+
+footer {
+  background-color: $mainColor;
+  p {
+    color: white;
+  }
+}
