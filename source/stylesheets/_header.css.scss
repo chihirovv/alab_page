@@ -6,7 +6,7 @@ header {
   border-bottom: 3px solid $accentColor;
   // @include zurui_box_shadow();
   h1 {
-    color: white;
+    color: $secondaryColor;
     margin: 0;
     letter-spacing: 5px;
     font-size: 24px;
@@ -22,14 +22,21 @@ header {
       float: left;
       margin: 15px 0px;
       padding: 0px 19px;
-      border-right: 1px solid $borderColor;
+      border-right: 1px solid $secondaryColor;
       text-decoration: none;
+      @include transition(.6s);
       &:first-child {
-        border-left: 1px solid $borderColor;
+        border-left: 1px solid $secondaryColor;
         // margin-left: 8px;
       }
+      &:hover {
+        background-color: $secondaryColor;
+        li {
+          color: $mainColor;
+        }
+      }
       li {
-        color: white;
+        color: $secondaryColor;
         p {
           margin: 0px;
           font-size: 10px;
