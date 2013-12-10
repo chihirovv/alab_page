@@ -23,16 +23,36 @@ div.wrapper {
 
 main {
   float: right;
-  width: 960px - 34px - 254px;
+  width: $wrapperWidth - 15px - $sidemenuWidth;
 }
 
 p {
   // font-size: 16px;
   font-size: 14px;
   line-height: 24px;
+  text-align: justify;
+}
+
+h2 {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  font-size: 24px;
+  border-top: $borderWidth solid $mainColor;
+  border-bottom: $borderWidth dotted $mainColor;
+  letter-spacing: 2px;
+  background-image: image-url("bg-image.png");
+  background-repeat: no-repeat;
+  background-position: -3px center;
+  background-size: 14px;
 }
 
 h3 {
   font-size: 18px;
-  border-bottom: 3px solid $accentColor;
+  border-bottom: $borderWidth solid $accentColor;
+}
+
+section {
+  margin-left: 20px;
 }
