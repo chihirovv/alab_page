@@ -65,7 +65,7 @@ h2 {
 
 h3 {
   font-size: 18px;
-  border-bottom: 3px solid $accentColor;
+  border-bottom: $borderWidth solid $accentColor;
 }
 
 section {

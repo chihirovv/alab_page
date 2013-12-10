@@ -3,7 +3,7 @@
 
 header {
   background-color: $mainColor;
-  border-bottom: 3px solid $accentColor;
+  border-bottom: $borderWidth solid $accentColor;
   // @include zurui_box_shadow();
   h1 {
     color: $secondaryColor;
