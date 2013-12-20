@@ -1,2 +1,10 @@
 .wrapper
-  %p footerだよ！
+  %ul
+    - data.nav.footer.each do |page|
+      %li
+        = link_to page['title'][0], page['title'][1]
+
+        %ul
+          - page['list'].each do |subpage|
+            %li= link_to subpage[0], page['title'][1]+subpage[1]
+

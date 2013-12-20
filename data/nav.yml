@@ -58,4 +58,50 @@ side:
       - [ 辻堂駅からバスをご利用の場合, "#from-tsujido" ]
       - [ 「アクセスマップ・キャンパスマップ」PDF, "#access-map" ]
 
+footer:
+  -
+    title: [ Home, "index.html" ]
+    list:
+      - [ 研究概要, "#about" ]
+      - [ News(新着情報), "#news" ]
+  -
+    title: [ Research, "research.html" ]
+    list: []
+  -
+    title: [ Members, "members.html" ]
+    list:
+      - [ スタッフ, "#staffs" ]
+      - [ 学生, "#students" ]
+  -
+    title: [ Publications, "publications.html" ]
+    list:
+      - [ 原著論文, "#papers" ]
+      - [ 国際学会発表, "#conferences-international" ]
+      - [ 国内学会発表, "#conferences-japan" ]
+  -
+    title: [ For Students, "for_students.html" ]
+    list:
+      - [ 研究室紹介, "#lab" ]
+      - [ 研究環境, "#environment" ]
+      - [ 進学希望者, "#for-other-univs" ]
+  -
+    title: [ Teaching, "teaching.html" ]
+    list:
+      - [ 春・秋学期開講授業, "#whole-year" ]
+      - [ 春学期開講授業, "#spring" ]
+      - [ 秋学期開講授業, "#autumn" ]
+  -
+    title: [ Sponsership, "sponsership.html" ]
+    list: []
+  -
+    title: [ Links, "link.html" ]
+    list:
+      - [ 塾内, "#keio-links" ]
+      - [ 関連研究機関, "#other-links" ]
+  -
+    title: [ Contacts, "contacts.html" ]
+    list:
+      - [ 所在地, "#location" ]
+      - [ 交通, "#access" ]
+      - [ アクセスマップ, "#access-map" ]
 
