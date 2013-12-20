@@ -1,7 +1,7 @@
 $ ->
   wrapperWidth = 960
   headerContentsWidth = 0
-  colNum = 8
+  colNum = $('header li').length
   for i in [0..colNum]
     headerContentsWidth += $('header ul a').eq(i).width()
   console.log headerContentsWidth

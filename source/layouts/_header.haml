@@ -1,5 +1,5 @@
 .wrapper
-  %h1 慶應義塾大学環境情報学部 青山敦研究室
+  %h1= image_tag "header.png", :height => "35px", :alt => "慶應義塾大学環境情報学部 青山敦研究室"
   %ul
     - data.nav.header.each do |en_title,ja_title,url|
       %li

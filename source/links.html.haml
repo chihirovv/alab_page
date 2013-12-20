@@ -1,0 +1,31 @@
+---
+title: リンク
+---
+
+%div#body
+  %div.wrapper
+
+    %div#sidemenu
+      = partial "layouts/sidemenu", locals: {side_content: data.nav.side['links']}
+
+    %main
+      %h2 リンク
+      %section#keio-links
+        %h3 塾内
+
+        %ul
+          %li= link_to "慶應義塾大学", "http://www.keio.ac.jp/"
+          %li= link_to "慶應義塾大学 湘南藤沢キャンパス（SFC）", "http://www.sfc.keio.ac.jp/"
+          %li= link_to "慶應義塾大学 理工学部・理工学研究科", "http://www.st.keio.ac.jp/"
+          %li= link_to "慶應義塾大学 理工学部物理情報工学科 本多敏研究室", "http://www.thx.appi.keio.ac.jp/"
+          %li= link_to "慶應義塾大学 環境情報学部 今井むつみ研究室", "http://cogpsy.sfc.keio.ac.jp/imailab/"
+
+      %section#other-links
+        %h3 関連研究機関
+
+        %ul
+          %li= link_to "東京電機大学総合研究所 千葉共同利用施設", "http://www.rcat.dendai.ac.jp/"
+          %li= link_to "東京電機大学 情報環境学部", "http://www.sie.dendai.ac.jp/"
+          %li= link_to "千葉大学 フロンティア医工学センター", "http://www.cfme.chiba-u.jp/"
+          %li= link_to "Neuroscience Center Zurich (ZNZ)", "http://www.neuroscience.ethz.ch/"
+          %li= link_to "国立台湾師範大学 光電科技研究所", "http://www.ieo.ntnu.edu.tw/en/news/"

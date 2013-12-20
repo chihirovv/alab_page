@@ -4,6 +4,7 @@ header:
   - [ Members, スタッフ・学生, members.html ]
   - [ Publications, 学会発表・論文, publications.html ]
   - [ For Students, 学生対象ページ, for_students.html ]
+  - [ Teaching, 開講授業一覧, teaching.html ]
   - [ Sponsership, 共同研究, sponsership.html ]
   - [ Links, リンク, links.html ]
   - [ Contact, 連絡先, contacts.html ]
@@ -16,8 +17,7 @@ side:
       - [ News(新着情報), "#news" ]
   researches:
     title: [ Researches, 研究分野 ]
-    list:
-      - []
+    list: []
   members:
     title: [ Members, スタッフ・学生 ]
     list:
@@ -35,3 +35,27 @@ side:
       - [ 研究室紹介, "#lab" ]
       - [ 研究環境, "#environment" ]
       - [ 他大学・他学科・他研究室からの進学希望者へ, "#for-other-univs" ]
+  teaching:
+    title: [ Teaching, 開講授業一覧 ]
+    list:
+      - [ 春・秋学期開講授業, "#whole-year" ]
+      - [ 春学期開講授業, "#spring" ]
+      - [ 秋学期開講授業, "#autumn" ]
+  sponsership:
+    title: [ Sponsership, 共同研究 ]
+    list: []
+  links:
+    title: [ Links, リンク ]
+    list:
+      - [ 塾内, "#keio-links" ]
+      - [ 関連研究機関, "#other-links" ]
+  contacts:
+    title: [ Contacts, 連絡先 ]
+    list:
+      - [ 所在地, "#location" ]
+      - [ 交通, "#access" ]
+      - [ 湘南台駅からバスをご利用の場合, "#from-shonandai" ]
+      - [ 辻堂駅からバスをご利用の場合, "#from-tsujido" ]
+      - [ 「アクセスマップ・キャンパスマップ」PDF, "#access-map" ]
+
+

@@ -1,0 +1,47 @@
+---
+title: 連絡先
+---
+
+%div#body
+  %div.wrapper
+
+    %div#sidemenu
+      = partial "layouts/sidemenu", locals: {side_content: data.nav.side['contacts']}
+
+    %main
+      %h2 連絡先
+      %section#location
+        %h3 所在地
+
+        %p 〒252-0882 神奈川県藤沢市遠藤5322
+        %p 慶應義塾大学 湘南藤沢キャンパス
+
+      %section#access
+        %h3 交通
+
+        %p
+          小田急江ノ島線・相鉄いずみ野線・横浜市営地下鉄ブルーライン「湘南台」駅下車
+        %p
+          西口よりバス「慶応大学」行き約15分「慶応大学本館前」下車
+          JR東海道線「辻堂」駅下車
+        %p
+          北口よりバス「慶応大学」行き約25分「慶応大学本館前」下車
+
+      %section#from-shonandai
+        %h3 湘南台駅からバスをご利用の場合
+
+        %p
+          湘南台駅西口B出口から地上に上がり、１番バス乗り場から神奈中バス「湘23系統慶応大学」「湘24系統笹久保経由慶応大学」「湘25系統急行・慶応大学」行きに乗り、「慶応大学本館前」まで約15〜20分。運賃210円。
+
+      %section#from-tsujido
+        %h3 辻堂駅からバスをご利用の場合
+
+        %p
+          辻堂駅北口の3番バス乗り場から神奈中バス 「辻34系統 慶応大学」行きに乗り、 「慶応大学本館前」まで約25分。運賃320円。
+
+      %section#access-map
+        %h3 「アクセスマップ・キャンパスマップ」PDF
+
+        %ul
+          %li= link_to "アクセスマップPDF", "http://www.sfc.keio.ac.jp/files/892/map_j.pdf"
+          %li= link_to "キャンパスマップPDF", "http://www.sfc.keio.ac.jp/swf/campusmap/map.pdf"
