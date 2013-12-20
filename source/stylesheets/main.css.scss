@@ -11,7 +11,7 @@
 
 body {
   min-width: $wrapperWidth;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS UI Gothic", "Lucida Grande", sans-serif;
 }
 
 div#body {
@@ -44,7 +44,7 @@ main {
   p {
     // font-size: 16px;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     // text-align: justify;
   }
 
@@ -84,7 +84,7 @@ main {
   dd {
     font-size: 14px;
     margin: 0;
-    line-height: 24px;
+    line-height: 1.7;
   }
 
   .todo {
