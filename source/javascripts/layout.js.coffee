@@ -21,7 +21,7 @@ expand_body = ->
   without_body_height = $('header').height() + $('footer').height()
   total_height = without_body_height + $('div#body').height()
   if $(window).height() > total_height
-    $('div#body').height( $(window).height() - without_body_height + 30 )
+    $('div#body').height( $(window).height() - without_body_height )
 
 
 $ ->
