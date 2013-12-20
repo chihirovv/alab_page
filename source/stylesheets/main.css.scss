@@ -82,8 +82,9 @@ main {
   }
 
   dd {
-    font-size: 12px;
+    font-size: 14px;
     margin: 0;
+    line-height: 24px;
   }
 
   .todo {
@@ -121,7 +122,7 @@ main {
     }
     dd {
       position: relative;
-      top: -22px;
+      top: -25px;
       margin-left: 200px;
     }
   }
