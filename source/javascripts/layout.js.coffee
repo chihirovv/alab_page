@@ -20,7 +20,8 @@ arrange_height = (target) ->
 expand_body = ->
   without_body_height = $('header').height() + $('footer').height()
   total_height = without_body_height + $('div#body').height()
-  $('div#body').css 'min-height', $(window).height() - without_body_height - 30
+  if $(window).height() > total_height
+    $('div#body').height( $(window).height() - without_body_height - 30 )
 
 
 $ ->

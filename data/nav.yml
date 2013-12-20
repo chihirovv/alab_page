@@ -17,7 +17,11 @@ side:
       - [ News(新着情報), "#news" ]
   research:
     title: [ Research, 研究分野 ]
-    list: []
+    list:
+      - [ 感覚統合機構の解明と制御, "#sensory-integration" ]
+      - [ 情動情報の読み取り, "#emotion" ]
+      - [ 言語, "#language" ]
+      - [ 記憶, "#memory" ]
   members:
     title: [ Members, スタッフ・学生 ]
     list:
@@ -66,7 +70,11 @@ footer:
       - [ News(新着情報), "#news" ]
   -
     title: [ Research, "research.html" ]
-    list: []
+    list:
+      - [ 感覚統合機構, "#sensory-integration" ]
+      - [ 情動情報, "#emotion" ]
+      - [ 言語, "#language" ]
+      - [ 記憶, "#memory" ]
   -
     title: [ Members, "members.html" ]
     list:
