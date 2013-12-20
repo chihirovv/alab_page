@@ -17,6 +17,11 @@ arrange_height = (target) ->
   for i in [0..target.length]
     target.css 'height', max_height
 
+expand_body = ->
+  without_body_height = $('header').height() + $('footer').height()
+  total_height = without_body_height + $('div#body').height()
+  $('div#body').css 'min-height', $(window).height() - without_body_height - 30
+
 
 $ ->
   wrapperWidth = 960
@@ -26,3 +31,4 @@ $ ->
 
   arrange_height( $('footer > div.wrapper > ul > li') )
 
+  expand_body()

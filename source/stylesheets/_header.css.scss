@@ -28,15 +28,16 @@ header {
       }
       a {
         display: block;
-        padding: 0px 19.9735px;
+        padding: 3px 19.9735px;
         color: $secondaryColor;
         text-decoration: none;
         p {
           margin: 0px;
           font-size: 9px;
           &.en {
-            font-weight: bold;
+            font-weight: 700;
             font-size: 14px;
+            margin-bottom: 2px;
           }
         }
         &:hover {

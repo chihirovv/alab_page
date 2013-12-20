@@ -9,9 +9,11 @@ div#sidemenu {
       margin: 10px 0;
       color: $secondaryColor;
       font-size: 15px;
+      letter-spacing: 1px;
       &.en {
         font-size: 30px;
-        font-weight: bold;
+        letter-spacing: 2px;
+        font-weight: 100;
       }
     }
   }

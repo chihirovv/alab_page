@@ -1,10 +1,11 @@
 .wrapper
   %ul
     - data.nav.footer.each do |page|
-      %li
+      %li.light-weight
         = link_to page['title'][0], page['title'][1]
 
         %ul
           - page['list'].each do |subpage|
             %li= link_to subpage[0], page['title'][1]+subpage[1]
 
+  %p &copy; 2013- 慶應義塾大学 環境情報学部 青山敦研究室
