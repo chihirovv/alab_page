@@ -1,6 +1,6 @@
 header:
   - [ Home, 研究室概要, index.html ]
-  - [ Researches, 研究分野, researches.html ]
+  - [ Research, 研究分野, research.html ]
   - [ Members, スタッフ・学生, members.html ]
   - [ Publications, 学会発表・論文, publications.html ]
   - [ For Students, 学生対象ページ, for_students.html ]
@@ -15,8 +15,8 @@ side:
     list:
       - [ 研究概要, "#about" ]
       - [ News(新着情報), "#news" ]
-  researches:
-    title: [ Researches, 研究分野 ]
+  research:
+    title: [ Research, 研究分野 ]
     list: []
   members:
     title: [ Members, スタッフ・学生 ]
