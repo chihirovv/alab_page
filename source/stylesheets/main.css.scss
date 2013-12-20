@@ -127,4 +127,19 @@ main {
   }
 }
 
+dl.news {
+  dt {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 100;
+  }
+  dd {
+    position: relative;
+    top: -22px;
+    margin-left: 100px;
+    font-size: 14px;
+    font-weight: 100;
+  }
+}
 
