@@ -17,26 +17,20 @@ header {
     @include clearfix;
     margin: 0;
     padding: 0;
-    a {
+    li {
       display: block;
       float: left;
       margin: 15px 0px;
-      padding: 0px 19px;
       border-right: 1px solid $secondaryColor;
-      text-decoration: none;
-      @include transition(.6s);
       &:first-child {
         border-left: 1px solid $secondaryColor;
         // margin-left: 8px;
       }
-      &:hover {
-        background-color: $secondaryColor;
-        li {
-          color: $mainColor;
-        }
-      }
-      li {
+      a {
+        display: block;
+        padding: 0px 19.9735px;
         color: $secondaryColor;
+        text-decoration: none;
         p {
           margin: 0px;
           font-size: 10px;
@@ -45,7 +39,14 @@ header {
             font-size: 15px;
           }
         }
-      } // li
-    } // a
+        &:hover {
+          background-color: $secondaryColor;
+          p {
+            color: $mainColor;
+          }
+          @include transition(.6s);
+        }
+      } // a
+    } // li
   } // ul
 }

@@ -2,7 +2,7 @@
   %h1 慶應義塾大学環境情報学部 青山敦研究室
   %ul
     - data.nav.header.each do |en_title,ja_title,url|
-      = link_to url do
-        %li
+      %li
+        = link_to url do
           %p.en= en_title
           %p.ja= ja_title
