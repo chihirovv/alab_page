@@ -30,7 +30,7 @@ p {
   // font-size: 16px;
   font-size: 14px;
   line-height: 24px;
-  text-align: justify;
+  // text-align: justify;
 }
 
 h2 {
@@ -40,7 +40,7 @@ h2 {
   padding: 10px 20px;
   font-size: 24px;
   border-top: $borderWidth solid $mainColor;
-  border-bottom: $borderWidth dotted $mainColor;
+  border-bottom: $borderWidth dashed $mainColor;
   letter-spacing: 2px;
   background-image: image-url("bg-image.png");
   background-repeat: no-repeat;
@@ -50,9 +50,17 @@ h2 {
 
 h3 {
   font-size: 18px;
-  border-bottom: $borderWidth solid $accentColor;
+  border-bottom: 2px solid $accentColor;
 }
 
 section {
   margin-left: 20px;
+}
+
+.todo {
+  display: block;
+  @include border-radius(3px);
+  background-color: red;
+  padding: 20px;
+  color: white;
 }

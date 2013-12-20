@@ -13,4 +13,25 @@ side:
     title: [ Home, 研究室概要 ]
     list:
       - [ 研究概要, "#about" ]
-      - [ 研究室の一日, "#ichinichi" ]
+      - [ News(新着情報), "#news" ]
+  researches:
+    title: [ Researches, 研究分野 ]
+    list:
+      - []
+  members:
+    title: [ Members, スタッフ・学生 ]
+    list:
+      - [ スタッフ, "#staffs" ]
+      - [ 学生, "#students" ]
+  publications:
+    title: [ Publications, 学会発表・論文 ]
+    list:
+      - [ 原著論文, "#papers" ]
+      - [ 国際学会発表, "#conferences-international" ]
+      - [ 国内学会発表, "#conferences-japan" ]
+  for_students:
+    title: [ For Students, 学生対象ページ ]
+    list:
+      - [ 研究室紹介, "#lab" ]
+      - [ 研究環境, "#environment" ]
+      - [ 他大学・他学科・他研究室からの進学希望者へ, "#for-other-univs" ]
