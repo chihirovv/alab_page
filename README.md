@@ -6,7 +6,7 @@
 
 慶應義塾大学 環境情報学部 青山敦研究室のウェブページのためのソースコードです。
 
-[middleman][middleman]を利用してHaml/Coffeescript/CompassからHTML/JS/CSSを生成しています。
+[middleman][middleman]を利用して[Haml](http://haml.info/)/[Coffeescript](http://coffeescript.org/)/[Compass](http://compass-style.org/)からHTML/JS/CSSを生成しています。
 
 ## Get Started
 
