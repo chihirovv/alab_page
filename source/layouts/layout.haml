@@ -13,7 +13,10 @@
     %meta{:name => "description", :content => "青山敦研究室は、神経科学（脳科学）、生体信号処理 、異種感覚統合、特に脳機能計測と脳情報解析を専門とする慶應義塾大学 環境情報学部の研究室です。脳磁界計測法（MEG）、磁気共鳴画像法（MRI）、脳波（特にMEG）などを用いて、脳情報の計測と数理解析を行い、未知なるヒトの脳神経の活動を明らかにしています。更に、本研究室では脳情報通信や医療・福祉等への応用（脳工学）を目指していきます。"}
 
     / Use title if it's in the page YAML frontmatter
-    %title= current_page.data.title + " | 青山敦研究室"
+    - if page_classes == 'index'
+      %title= "慶應義塾大学 青山敦研究室"
+    - else
+      %title= current_page.data.title + " | 青山敦研究室"
 
     = stylesheet_link_tag "normalize", "main"
     = javascript_include_tag  "jquery-2.0.3.min", "all"
