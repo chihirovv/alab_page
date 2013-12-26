@@ -23,6 +23,13 @@ expand_body = ->
   if $(window).height() > total_height
     $('div#body').height( $(window).height() - without_body_height )
 
+reverse_current_head = ->
+  target = $('header li a')
+
+  for i in [0..target.length]
+    if target.eq(i).attr('href') is './'
+      target.eq(i).addClass 'current'
+
 
 $ ->
   wrapperWidth = 960
@@ -33,3 +40,5 @@ $ ->
   arrange_height( $('footer > div.wrapper > ul > li') )
 
   expand_body()
+
+  reverse_current_head()

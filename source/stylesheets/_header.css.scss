@@ -40,6 +40,12 @@ header {
             margin-bottom: 2px;
           }
         }
+        &.current {
+          background-color: $secondaryColor;
+          p {
+            color: $mainColor;
+          }
+        }
         &:hover {
           background-color: $secondaryColor;
           p {
