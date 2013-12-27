@@ -30,6 +30,13 @@ reverse_current_head = ->
     if target.eq(i).attr('href') is './'
       target.eq(i).addClass 'current'
 
+append_icon_to_exlink = ->
+  target = $('a[target=_blank]')
+  target.each ->
+    $(this).append ' <i class="fa fa-external-link"></i>'
+
+
+# $('.fvc>a[href^=http]').each
 
 $ ->
   wrapperWidth = 960
@@ -42,3 +49,5 @@ $ ->
   expand_body()
 
   reverse_current_head()
+
+  append_icon_to_exlink()
