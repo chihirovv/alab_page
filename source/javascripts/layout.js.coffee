@@ -41,8 +41,8 @@ append_icon_to_exlink = ->
 $ ->
   wrapperWidth = 960
 
-  align_li( wrapperWidth, $('header li').length, $('header ul a') )
-  align_li( wrapperWidth, $('footer > div.wrapper > ul > li').length, $('footer > div.wrapper > ul > li') )
+  # align_li( wrapperWidth, $('header li').length, $('header ul a') )
+  # align_li( wrapperWidth, $('footer > div.wrapper > ul > li').length, $('footer > div.wrapper > ul > li') )
 
   arrange_height( $('footer > div.wrapper > ul > li') )
 
