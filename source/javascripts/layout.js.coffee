@@ -1,7 +1,8 @@
 align_li = (wrapperWidth, colNum, target) ->
 
   contentsWidth = 0
-  for i in [0..colNum]
+
+  for i in [0...colNum]
     contentsWidth += target.eq(i).width()
 
   nav_padding =  ( wrapperWidth - contentsWidth - (colNum * 1 + 1) - 1 ) / colNum / 2
@@ -10,11 +11,11 @@ align_li = (wrapperWidth, colNum, target) ->
 
 arrange_height = (target) ->
   max_height = 0
-  for i in [0..target.length]
+  for i in [0...target.length]
     if target.eq(i).height() > max_height
       max_height = target.eq(i).height()
 
-  for i in [0..target.length]
+  for i in [0...target.length]
     target.css 'height', max_height
 
 expand_body = ->
@@ -41,8 +42,11 @@ append_icon_to_exlink = ->
 $ ->
   wrapperWidth = 960
 
-  # align_li( wrapperWidth, $('header li').length, $('header ul a') )
-  # align_li( wrapperWidth, $('footer > div.wrapper > ul > li').length, $('footer > div.wrapper > ul > li') )
+  # webfontを読み込む分の時間遅延
+  setTimeout ->
+    align_li( wrapperWidth, $('header li').length, $('header ul a') )
+    align_li( wrapperWidth, $('footer > div.wrapper > ul > li').length, $('footer > div.wrapper > ul > li') )
+  , 500
 
   arrange_height( $('footer > div.wrapper > ul > li') )
 
