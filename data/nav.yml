@@ -102,7 +102,7 @@ footer:
     title: [ Sponsership, "sponsership.html" ]
     list: []
   -
-    title: [ Links, "link.html" ]
+    title: [ Links, "links.html" ]
     list:
       - [ 塾内, "#keio-links" ]
       - [ 関連研究機関, "#other-links" ]
