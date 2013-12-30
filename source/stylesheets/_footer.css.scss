@@ -7,7 +7,7 @@ footer {
     @include clearfix;
     list-style: none;
     margin: 0;
-    padding: 50px 0 20px 0;
+    padding: 20px 0 20px 0;
     & > li {
       display: block;
       float: left;
@@ -40,5 +40,29 @@ footer {
     padding-bottom: 50px;
     text-align: right;
     font-size: 12px;
+  }
+  a.back-to-top {
+    $circleWidth: 60px;
+    $whiteMargin: 3px;
+    $innerMargin: 20px;
+    position: relative;
+    top: -($circleWidth/2 + $whiteMargin);
+    left: $wrapperWidth/2 - $circleWidth/2 - $whiteMargin;
+    display: block;
+    width: $circleWidth;
+    height: $circleWidth - $innerMargin;
+    padding: $innerMargin/2 0;
+    @include border-radius($circleWidth/2+$whiteMargin);
+    border: $whiteMargin solid white;
+    text-align: center;
+    line-height: ($circleWidth - $innerMargin)/3;
+    font-weight: bold;
+    font-size: 11px;
+    background-color: $mainColor;
+    @include transition(.3s);
+    &:hover {
+      background-color: $secondaryColor;
+      color: $mainColor;
+    }
   }
 }
