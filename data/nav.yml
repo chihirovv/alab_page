@@ -5,7 +5,7 @@ header:
   - [ Publications, 学会発表・論文, publications.html ]
   - [ For Students, 学生対象ページ, for_students.html ]
   - [ Teaching, 開講授業一覧, teaching.html ]
-  - [ Sponsership, 共同研究, sponsership.html ]
+  - [ Sponsorship, 共同研究, sponsorship.html ]
   - [ Links, リンク, links.html ]
   - [ Contact, 連絡先, contacts.html ]
 
@@ -45,8 +45,8 @@ side:
       - [ 春・秋学期開講授業, "#whole-year" ]
       - [ 春学期開講授業, "#spring" ]
       - [ 秋学期開講授業, "#autumn" ]
-  sponsership:
-    title: [ Sponsership, 共同研究 ]
+  sponsorship:
+    title: [ Sponsorship, 共同研究 ]
     list: []
   links:
     title: [ Links, リンク ]
@@ -99,7 +99,7 @@ footer:
       - [ 春学期開講授業, "#spring" ]
       - [ 秋学期開講授業, "#autumn" ]
   -
-    title: [ Sponsership, "sponsership.html" ]
+    title: [ Sponsorship, "sponsorship.html" ]
     list: []
   -
     title: [ Links, "links.html" ]
