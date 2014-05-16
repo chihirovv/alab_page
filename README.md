@@ -8,12 +8,18 @@
 
 [middleman][middleman]を利用して[Haml](http://haml.info/)/[Coffeescript](http://coffeescript.org/)/[Compass](http://compass-style.org/)からHTML/JS/CSSを生成しています。
 
+[middleman][middleman]はWebサイト作成を効率化するための静的サイトジェネレーターです。
+研究会のWebページのように頻繁に変更がかからないようなサイトの作成を効率化することが出来ます。
+具体的には、ヘッダーやフッターなど、各ページ間で重複するパーツであったりリンクのリストなど複数箇所で同じリソースを使いまわしたい場合などで、記述を一元化することで変更に強い編集環境を得ることが出来ます。
+また[Haml](http://haml.info/)/[Coffeescript](http://coffeescript.org/)/[Compass](http://compass-style.org/)と呼ばれるそれぞれHTML/JS/CSSにコンパイルされるメタ言語を利用することで、記述そのものについても簡略化しています。
+詳細についてはリンク先を参照して下さい。
+
 ## Get Started
 
 ターミナルで
 
 	$ ruby -v
-	
+
 と入力し、まずrubyが自身のコンピューターにインストールされていることを確認しましょう。
 
 rubyがインストールされていない場合は[頑張って入れましょう](https://www.google.co.jp/search?q=ruby+インストール&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:ja-JP-mac:official&hl=ja&client=firefox-a)
@@ -60,11 +66,11 @@ rubyが入っている/インストールしたことを確認した上で、
 クローン先のディレクトリで
 
 	$ middleman s
-	
+
 または
 
 	$ middleman server
-	
+
 と入力すると開発用のローカルサーバーを立てることが出来ます。
 以降、自分が使っているブラウザで[localhost:4567](localhost:4567)にアクセスすることで開発途中のプレビューを確認することが出来ます。
 コマンドをキルしない限りファイルの変更は自動で検知されてプレビューに反映されます。
@@ -76,7 +82,7 @@ rubyが入っている/インストールしたことを確認した上で、
 前述のとおりにconfig.rbを設定した上で、
 
 	$ middleman deploy
-	
+
 とターミナル上、クローン先のディレクトリで入力することでデプロイを行うことが出来ます。
 なお、ftpプロトコルを用いてsfcのサーバーにアップロードするにはVPNなどを利用するかもしくは学内ネットワークからアクセスする必要があるようです。
 
