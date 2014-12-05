@@ -18,3 +18,5 @@
 
 # ignore config.rb
 config.rb
+
+.ruby-version
