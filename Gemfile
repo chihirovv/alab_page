@@ -16,3 +16,5 @@ gem "middleman-deploy"
 gem "font-awesome-middleman"
 
 gem "net-ssh", "~>2.6.5"
+
+gem "therubyracer",  platforms: :ruby
