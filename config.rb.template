@@ -74,8 +74,9 @@ configure :build do
 end
 
 activate :deploy do |deploy|
-  deploy.method       = :ftp
+  deploy.method       = :sftp
   deploy.host         = "write host name(ex: ccz00.sfc.keio.ac.jp)"
+  deploy.port         = 22
   deploy.path         = "the absolute path where you wanna upload"
   deploy.user         = "username to log in"
   deploy.password     = "password to log in"
