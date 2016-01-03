@@ -50,7 +50,7 @@ rubyが入っている/インストールしたことを確認した上で、
 	activate :deploy do |deploy|
 		deploy.method       = :sftp
 		deploy.host         = "write host name(ex: ccz00.sfc.keio.ac.jp)"
-                deploy.port         = 22
+        deploy.port         = 22
 		deploy.path         = "the absolute path where you wanna upload"
 		deploy.user         = "username to log in"
 		deploy.password     = "password to log in"
@@ -77,7 +77,7 @@ rubyが入っている/インストールしたことを確認した上で、
 
 ポートを指定する場合は、
 
-         $ middleman s -p 9999
+    $ middleman s -p 9999
 
 と入力すると、[lcalhost:9999](localhost:9999)にアクセスする事が出来ます。
 コマンドをキルしない限りファイルの変更は自動で検知されてプレビューに反映されます。
