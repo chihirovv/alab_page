@@ -26,7 +26,8 @@ side:
     title: [ Members, スタッフ・学生 ]
     list:
       - [ スタッフ, "#staffs" ]
-      - [ 学生, "#students" ]
+      - [ 大学院生, "#graduatestudent" ]
+      - [ 学部生, "#undergraduatestudents" ]
   publications:
     title: [ Publications, 学会発表・論文 ]
     list:
