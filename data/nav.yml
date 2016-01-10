@@ -26,7 +26,7 @@ side:
     title: [ Members, スタッフ・学生 ]
     list:
       - [ スタッフ, "#staffs" ]
-      - [ 大学院生, "#graduatestudent" ]
+      - [ 大学院生, "#graduatestudents" ]
       - [ 学部生, "#undergraduatestudents" ]
   publications:
     title: [ Publications, 学会発表・論文 ]
@@ -80,7 +80,8 @@ footer:
     title: [ Members, "members.html" ]
     list:
       - [ スタッフ, "#staffs" ]
-      - [ 学生, "#students" ]
+      - [ 大学院生, "#graduatestudents" ]
+      - [ 学部生, "#undergraduatestudents" ]
   -
     title: [ Publications, "publications.html" ]
     list:
