@@ -4,3 +4,4 @@
 //= require layout
 //= require for_analytics
 //= require slider
+//= require buttons

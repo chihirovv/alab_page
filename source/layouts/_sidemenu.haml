@@ -5,3 +5,9 @@
   - side_content['list'].each do | name,link |
     = link_to link do
       %li= name
+
+%br
+.fb-like{"data-action" => "like", "data-colorscheme" => "light", "data-layout" => "standard", "data-send" => "false", "data-show-faces" => "false", "data-width" => "450"}
+ 
+%p
+%a.twitter-share-button{"data-related" => "sfcaoyamalab", "data-size" => "large", "data-text" => "I just tweeted about this site!", "data-via" => "sfcaoyamalab", :href => "https://twitter.com/share"} Tweet
