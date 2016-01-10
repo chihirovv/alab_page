@@ -19,7 +19,7 @@
       %title= current_page.data.title + " | 青山敦研究室"
 
     = stylesheet_link_tag "normalize", "main"
-    = javascript_include_tag  "jquery-2.0.3.min", "all"
+    = javascript_include_tag  "jquery-2.0.3.min", "slick.min", "all"
 
   %body{:class=>"#{page_classes}"}
     %header
@@ -36,5 +36,4 @@
 
       ga('create', 'UA-45573996-2', 'keio.ac.jp');
       ga('send', 'pageview');
-
 
