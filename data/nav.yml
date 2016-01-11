@@ -14,6 +14,7 @@ side:
     title: [ Home, 研究室概要 ]
     list:
       - [ 研究概要, "#about" ]
+      - [ 実験協力者募集, "#volunteer" ]
       - [ News(新着情報), "#news" ]
   research:
     title: [ Research, 研究分野 ]
@@ -68,6 +69,7 @@ footer:
     title: [ Home, "index.html" ]
     list:
       - [ 研究概要, "#about" ]
+      - [ 実験協力者募集, "#volunteer" ]
       - [ News(新着情報), "#news" ]
   -
     title: [ Research, "research.html" ]
