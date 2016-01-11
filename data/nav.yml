@@ -29,6 +29,7 @@ side:
       - [ スタッフ, "#staffs" ]
       - [ 大学院生, "#graduatestudents" ]
       - [ 学部生, "#undergraduatestudents" ]
+      - [ 研究室OB・OG, "#obog" ]
   publications:
     title: [ Publications, 学会発表・論文 ]
     list:
@@ -84,6 +85,7 @@ footer:
       - [ スタッフ, "#staffs" ]
       - [ 大学院生, "#graduatestudents" ]
       - [ 学部生, "#undergraduatestudents" ]
+      - [ 研究室OB・OG, "#obog" ]
   -
     title: [ Publications, "publications.html" ]
     list:
